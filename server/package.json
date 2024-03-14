@@ -7,10 +7,7 @@
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
-=======
   "type": "commonjs",
->>>>>>> ce6d851b23cc3841fe1929d9b711dbd92a99c204
   "author": "Akshay, Ankit, Ankur and Dhruwin",
   "license": "ISC",
   "dependencies": {

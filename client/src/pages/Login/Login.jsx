@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Login = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Login
-=======
-// Login.js
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
@@ -28,7 +14,7 @@ const Login = () => {
       .then(result => {
         console.log(result);
         if (result.data === "Success") {
-          navigate('/home');
+          navigate('/');
         }
       })
       .catch(err => console.log(err));
@@ -64,7 +50,7 @@ const Login = () => {
           <button type='submit' className='btn-primary'>
             Login
           </button>
-        <p>Don't have an account? <Link to="/register">Sign Up</Link></p>
+        <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
         </form>
       </div>
     </div>
@@ -72,4 +58,3 @@ const Login = () => {
 }
 
 export default Login;
->>>>>>> ce6d851b23cc3841fe1929d9b711dbd92a99c204

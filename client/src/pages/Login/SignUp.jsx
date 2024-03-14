@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const SignUp = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default SignUp
-=======
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
@@ -40,7 +27,7 @@ const SignUp = () => {
     if (handleValidation()) {
       const { password, name, email } = values;
       try {
-        const { data } = await axios.post('http://localhost:3001/register', {
+        const { data } = await axios.post('http://localhost:3001/signup', {
           name,
           email,
           password,
@@ -49,7 +36,7 @@ const SignUp = () => {
           toast.error(data.msg, toastOptions);
         } else {
           localStorage.setItem('chat-app-user', JSON.stringify(data.user));
-          navigate("/login"); // Redirect to login page after successful registration
+          navigate("/login"); 
         }
       } catch (error) {
         console.error("Registration error:", error);
@@ -146,4 +133,3 @@ const SignUp = () => {
 }
 
 export default SignUp;
->>>>>>> ce6d851b23cc3841fe1929d9b711dbd92a99c204
