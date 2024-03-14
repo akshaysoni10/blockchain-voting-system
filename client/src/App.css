@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background: linear-gradient(120deg, #7A7ADB, #170E13);
+=======
+    background: linear-gradient(120deg, #4638a1, #170E13);
+>>>>>>> ce6d851b23cc3841fe1929d9b711dbd92a99c204
     color: #fff;
     height: 100vh;
     width: 100%;
