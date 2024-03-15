@@ -1,0 +1,36 @@
+.contact_info{
+  
+    margin-top: 30px;
+    padding: 60px 0;
+  }
+  
+  .contact_info_item{
+    box-shadow: 0 0 6px 0 rgba(190, 184, 184, 0.1), 0 4px 16px 0 rgba(225, 217, 217, 0.14); 
+    padding: 20px 14px;
+    width: 35rem;
+    border-radius: 10px;
+    margin: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact_info_item img{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .contact_info_content{
+    margin-left: 15px;
+  }
+
+  .contact_info_sub {
+    outline: offset(1);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .voting-icons {
+    width: 45px;
+    height: 45px;
+  }

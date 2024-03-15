@@ -17,7 +17,7 @@ align-items: center;
   padding: 3rem 5rem;
 }
 
-input{
+.input-field{
     background-color: transparent;
     padding: 1rem;
     gap: 2rem;
@@ -34,7 +34,7 @@ input{
     }
   }
 
-  button{
+  .btn-primary{
     background-color: #997af0;
     color: white;
     padding: 1rem 2rem;
