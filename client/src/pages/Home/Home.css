@@ -59,6 +59,7 @@
     position: relative;
     transition: all 0.3s ease-in-out;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 14px 0px 0px 0px;
     padding-block: 0.5rem;
     padding-inline: 1.25rem;
     background-color: transparent;
@@ -70,7 +71,7 @@
     color: #ffff;
     gap: 10px;
     font-weight: bold;
-    border: 3px solid #ffffff4d;
+    border: 2px solid #ffffff4d;
     outline: none;
     overflow: hidden;
     font-size: 15px;
@@ -85,7 +86,8 @@
 
 .candidate-btn:hover {
     transform: scale(1.05);
-    border-color: #fff9;
+    background-color: #00000076;
+    border-color: #4e0eff;
 }
   
 .candidate-btn:hover .icon {
